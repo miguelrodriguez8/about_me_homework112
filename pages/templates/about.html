@@ -1,0 +1,14 @@
+<!-- templates/about.html -->
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>About</h1>
+
+{% load static %}
+<img src="{% static "pages/mtbblooper.jpg" %}" alt="image2" style="max-width: 50%;">
+<h3>Name: Miguel Rodriguez</h3>
+<p>Hobbies: Mountain Biking, Surfing</p>
+
+{% endblock content %}

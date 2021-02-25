@@ -1,0 +1,11 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Homepage</h1>
+
+{% load static %}
+<img src="{% static "pages/mtber.jpg" %}" alt="My image" style="max-width: 50%;">
+
+{% endblock content %}
